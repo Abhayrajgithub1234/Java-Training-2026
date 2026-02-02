@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+FILE="$1"
+
+if [ -z "$FILE" ]; then
+  echo "Usage: ./java.sh Main.java"
+  exit 1
+fi
+
+CLASSNAME=$(basename "$FILE" .java)
+
+javac "$FILE" && java "$CLASSNAME"

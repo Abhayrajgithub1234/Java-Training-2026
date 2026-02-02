@@ -1,0 +1,6 @@
+#To ingnore the class files
+*.class
+
+#To ingnore some c files written and some .out
+*.c
+*.out
