@@ -4,3 +4,6 @@
 #To ingnore some c files written and some .out
 *.c
 *.out
+
+#To ingnore java script that compiles and runs the class files
+java
